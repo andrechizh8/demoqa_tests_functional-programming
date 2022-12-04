@@ -18,7 +18,7 @@ def test_practice_form(browser_open):
     browser.element('.react-datepicker__day--008').click()
     browser.element('#subjectsInput').type('Physic').press_enter()
     browser.element('[for="hobbies-checkbox-2"]').click()
-    browser.element('#uploadPicture').send_keys(os.path.abspath('D:/QA_GURU_HW/QA_GURU_hw_4/img/pepe.jpg'))
+    browser.element('#uploadPicture').send_keys(os.path.abspath('../img/pepe.jpg'))
     browser.element('#currentAddress').type('Krasnodar,Shirokaia 53')
     browser.element('[id="react-select-3-input"]').type('Uttar Pradesh').press_enter()
     browser.element('[id="react-select-4-input"]').type('Agra').press_enter()
