@@ -1,2 +1,3 @@
-# QA_GURU_hw_4
-test_demoQa
+# Selene + Pytest
+pip install -r requirements.txt
+pytest tests 
